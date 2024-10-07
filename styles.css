@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #e4e7eb;
+}
+
+/* .main-img was modeled after: https://www.w3schools.com/howto/howto_css_navbar_image.asp */
+/* Main background styling */
+.main-img {
+    background-image: url("/images/florence.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 575px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* I asked ChatGPT how to make my navbar slightly higher since margin and padding was not doing what I wanted */
+/* It generated .img-nav and some of .no-img-nav */
+.img-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+}
+
+.no-img-nav {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #51279b;
+    padding: 15px;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+header {
+    color: white;
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+button {
+    background-color: #51279b;
+    padding: 10px;
+    color: white;
+}
+
+/* Card styling */
+/* Uses flexbox to keep all cards on the same line */
+.card-container {
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    display: inline-block;
+    margin: 5px;
+    max-width: 100%;
+}
+
+.card-i {
+    text-align: center;
+}
+
+h3 {
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 12px;
+    margin: 0px;
+    margin-bottom: 2px;
+}
+
+#like-btn {
+    background: url("/images/heart.png");
+    border: none;
+    cursor: pointer;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+
+#cmnt-btn {
+    background: url("/images/comment.svg");
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#count {
+    display: inline;
+    font-size: 10px;
+}
+
+.footer-container div {
+    display: inline-block;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #51279b;
+}
+
+.footer-container {
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.large-img {
+    text-align: center;
+}
+
+.btn-container {
+    text-align: left;
+}
