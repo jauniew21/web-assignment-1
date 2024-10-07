@@ -7,7 +7,7 @@ body {
 /* .main-img was modeled after: https://www.w3schools.com/howto/howto_css_navbar_image.asp */
 /* Main background styling */
 .main-img {
-    background-image: url("images/florence.jpg");
+    background-image: url("../images/florence.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +101,7 @@ h4 {
 }
 
 #like-btn {
-    background: url("images/heart.png");
+    background: url("../images/heart.png");
     border: none;
     cursor: pointer;
     background-size: 20px;
@@ -111,7 +111,7 @@ h4 {
 }
 
 #cmnt-btn {
-    background: url("images/comment.svg");
+    background: url("../images/comment.svg");
     border: none;
     cursor: pointer;
     margin-left: 5px;
