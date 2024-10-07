@@ -7,7 +7,7 @@ body {
 /* .main-img was modeled after: https://www.w3schools.com/howto/howto_css_navbar_image.asp */
 /* Main background styling */
 .main-img {
-    background-image: url(./images/florence.jpg);
+    background-image: url(images/florence.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
