@@ -101,7 +101,7 @@ h4 {
 }
 
 #like-btn {
-    background: url(../images/heart.png);
+    background: url(images/heart.png);
     border: none;
     cursor: pointer;
     background-size: 20px;
@@ -111,7 +111,7 @@ h4 {
 }
 
 #cmnt-btn {
-    background: url(../images/comment.svg);
+    background: url(images/comment.svg);
     border: none;
     cursor: pointer;
     margin-left: 5px;
